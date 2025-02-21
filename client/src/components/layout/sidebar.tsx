@@ -18,29 +18,9 @@ export function Sidebar() {
 
   const routes = [
     {
-      label: "Record Pools",
-      icon: PlaySquare,
-      href: "/record-pools",
-    },
-    {
-      label: "Video Pools",
-      icon: Video,
-      href: "/video-pools",
-    },
-    {
       label: "Patreon",
       icon: Gift,
       href: "/patreon",
-    },
-    {
-      label: "Tutorials",
-      icon: GraduationCap,
-      href: "/tutorials",
-    },
-    {
-      label: "Smart Crates",
-      icon: Sparkles,
-      href: "/smart-crates",
     },
     {
       label: "Playlists",
@@ -48,9 +28,29 @@ export function Sidebar() {
       href: "/playlists",
     },
     {
+      label: "Record Pools",
+      icon: PlaySquare,
+      href: "/record-pools",
+    },
+    {
       label: "Settings",
       icon: Settings,
       href: "/settings",
+    },
+    {
+      label: "Smart Crates",
+      icon: Sparkles,
+      href: "/smart-crates",
+    },
+    {
+      label: "Tutorials",
+      icon: GraduationCap,
+      href: "/tutorials",
+    },
+    {
+      label: "Video Pools",
+      icon: Video,
+      href: "/video-pools",
     },
   ];
 
