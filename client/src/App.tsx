@@ -10,6 +10,7 @@ import VideoPools from "@/pages/video-pools";
 import Patreon from "@/pages/patreon";
 import Tutorials from "@/pages/tutorials";
 import SmartCrates from "@/pages/smart-crates";
+import ShazamSongs from "@/pages/shazam-songs";
 import Admin from "@/pages/admin";
 import NotFound from "@/pages/not-found";
 
@@ -23,6 +24,7 @@ function Router() {
       <Route path="/patreon" component={Patreon} />
       <Route path="/tutorials" component={Tutorials} />
       <Route path="/smart-crates" component={SmartCrates} />
+      <Route path="/shazam-songs" component={ShazamSongs} />
       <Route path="/admin" component={Admin} />
       <Route component={NotFound} />
     </Switch>

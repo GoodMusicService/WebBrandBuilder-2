@@ -10,6 +10,7 @@ import {
   Gift,
   GraduationCap,
   Sparkles,
+  Music2,
   LogOut 
 } from "lucide-react";
 
@@ -17,6 +18,11 @@ export function Sidebar() {
   const [location] = useLocation();
 
   const routes = [
+    {
+      label: "My Shazam Songs",
+      icon: Music2,
+      href: "/shazam-songs",
+    },
     {
       label: "Patreon",
       icon: Gift,
