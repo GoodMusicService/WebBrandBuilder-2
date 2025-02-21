@@ -8,6 +8,8 @@ import {
   Settings,
   Video,
   Gift,
+  GraduationCap,
+  Sparkles,
   LogOut 
 } from "lucide-react";
 
@@ -29,6 +31,16 @@ export function Sidebar() {
       label: "Patreon",
       icon: Gift,
       href: "/patreon",
+    },
+    {
+      label: "Tutorials",
+      icon: GraduationCap,
+      href: "/tutorials",
+    },
+    {
+      label: "Smart Crates",
+      icon: Sparkles,
+      href: "/smart-crates",
     },
     {
       label: "Playlists",

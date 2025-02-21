@@ -8,6 +8,8 @@ import Dashboard from "@/pages/dashboard";
 import RecordPools from "@/pages/record-pools";
 import VideoPools from "@/pages/video-pools";
 import Patreon from "@/pages/patreon";
+import Tutorials from "@/pages/tutorials";
+import SmartCrates from "@/pages/smart-crates";
 import Admin from "@/pages/admin";
 import NotFound from "@/pages/not-found";
 
@@ -19,6 +21,8 @@ function Router() {
       <Route path="/record-pools" component={RecordPools} />
       <Route path="/video-pools" component={VideoPools} />
       <Route path="/patreon" component={Patreon} />
+      <Route path="/tutorials" component={Tutorials} />
+      <Route path="/smart-crates" component={SmartCrates} />
       <Route path="/admin" component={Admin} />
       <Route component={NotFound} />
     </Switch>
