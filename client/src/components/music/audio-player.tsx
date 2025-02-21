@@ -71,12 +71,12 @@ export function AudioPlayer({ track }: AudioPlayerProps) {
           <h3 className="font-semibold">{track.title}</h3>
           <p className="text-sm text-muted-foreground">{track.artist}</p>
         </div>
-        
+
         <div className="flex items-center gap-4">
           <Button size="icon" variant="ghost" onClick={togglePlay}>
             {isPlaying ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
           </Button>
-          
+
           <div className="w-[200px]">
             <Slider
               value={[progress]}
@@ -85,11 +85,10 @@ export function AudioPlayer({ track }: AudioPlayerProps) {
               onValueChange={handleProgressChange}
             />
           </div>
-
           <Button size="icon" variant="ghost" onClick={() => setIsMuted(!isMuted)}>
             {isMuted ? <VolumeX className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
           </Button>
-          
+
           <div className="w-[100px]">
             <Slider
               value={[volume * 100]}

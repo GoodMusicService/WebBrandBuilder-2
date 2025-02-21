@@ -2,6 +2,7 @@ import { pgTable, text, serial, integer, boolean, timestamp, jsonb } from "drizz
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
+// Users table with record pool preferences
 export const users = pgTable("users", {
   id: serial("id").primaryKey(),
   email: text("email").notNull().unique(),
@@ -10,6 +11,7 @@ export const users = pgTable("users", {
   recordPoolPreferences: jsonb("record_pool_preferences").default([]),
 });
 
+// Tracks table for music files
 export const tracks = pgTable("tracks", {
   id: serial("id").primaryKey(),
   title: text("title").notNull(),
@@ -23,6 +25,7 @@ export const tracks = pgTable("tracks", {
   uploadedAt: timestamp("uploaded_at").defaultNow(),
 });
 
+// Playlists table for user collections
 export const playlists = pgTable("playlists", {
   id: serial("id").primaryKey(),
   userId: integer("user_id").notNull(),

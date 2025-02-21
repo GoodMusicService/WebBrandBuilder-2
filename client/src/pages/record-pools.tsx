@@ -20,12 +20,13 @@ export default function RecordPools() {
       <aside className="w-64 border-r">
         <Sidebar />
       </aside>
-      
+
       <main className="flex-1 p-8 overflow-y-auto">
         <div className="max-w-5xl mx-auto">
           <div className="flex items-center justify-between mb-8">
             <h1 className="text-3xl font-bold">Record Pools</h1>
-            
+
+            {/* Search bar */}
             <div className="flex gap-4">
               <div className="relative">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
@@ -37,6 +38,7 @@ export default function RecordPools() {
             </div>
           </div>
 
+          {/* Record pools grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {RECORD_POOLS.map((pool) => (
               <Card key={pool} className="group hover:border-primary transition-colors">
