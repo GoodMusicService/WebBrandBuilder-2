@@ -1,10 +1,10 @@
-import { Link, useLocation } from "wouter";
+import { Link } from "wouter";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { 
-  PlaySquare, 
-  Library, 
+import {
+  PlaySquare,
+  Library,
   Settings,
   Video,
   Gift,
@@ -12,11 +12,10 @@ import {
   Music2,
   LogOut,
   ListMusic,
-  Import
+  Import,
 } from "lucide-react";
 
 export function Sidebar() {
-  const [location] = useLocation();
 
   const routes = [
     {
@@ -57,4 +56,8 @@ export function Sidebar() {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen"
+    <div className="flex flex-col min-h-screen">
+      {/* Sidebar content goes here.  The routes array can be used to dynamically generate links. */}
+    </div>
+  );
+}
