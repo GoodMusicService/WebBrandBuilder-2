@@ -57,4 +57,4 @@ export function Sidebar() {
   ];
 
   return (
-    <div className
+    <div className="flex flex-col min-h-screen"
