@@ -33,11 +33,6 @@ export function Sidebar() {
       href: "/record-pools",
     },
     {
-      label: "Settings",
-      icon: Settings,
-      href: "/settings",
-    },
-    {
       label: "Smart Crates",
       icon: Sparkles,
       href: "/smart-crates",
@@ -83,6 +78,20 @@ export function Sidebar() {
               </Button>
             </Link>
           ))}
+
+          {/* Settings at bottom before logout */}
+          <Link href="/settings">
+            <Button
+              variant={location === "/settings" ? "secondary" : "ghost"}
+              className={cn(
+                "w-full justify-start",
+                location === "/settings" && "bg-sidebar-accent text-sidebar-accent-foreground"
+              )}
+            >
+              <Settings className="mr-2 h-4 w-4" />
+              Settings
+            </Button>
+          </Link>
         </div>
       </div>
       <div className="mt-auto px-3">
