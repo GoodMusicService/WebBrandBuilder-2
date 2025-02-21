@@ -1,0 +1,99 @@
+Here’s the refined version of your request, formatted for an AI website builder to generate your Select Music Club platform:
+
+Project: Select Music Club – Exclusive DJ Record Pool Platform
+Objective:
+ Develop a members-only website for DJs that aggregates music from 60+ record pools and Patreon edits. The platform must provide user authentication, customization, and advanced music discovery while maintaining exclusivity (i.e., preventing search engines from indexing content).
+Design Guidelines:
+Inspiration: Modern, sleek design similar to huly.io.
+Color Scheme: Dark theme with gold and black (as per attached logo).
+User Experience: Fast, responsive, intuitive, and mobile-friendly.
+
+Core Features & Development Breakdown
+1. User Authentication & Security
+✅ Implement email/password login using Supabase Authentication.
+ ✅ Ensure search engines do not index the site (robots.txt + noindex meta tags).
+ ✅ Include a "Forgot Password" feature.
+ ✅ Restrict direct downloads and content access unless logged in.
+2. Customizable Record Pool Selection
+✅ Display a list of 60+ record pools (sourced from djpoolrecords.com).
+ ✅ Allow users to select & save preferred record pools.
+ ✅ Dashboard should refresh upon login to display only selected record pools.
+ ✅ Filtering & search options for quick selection.
+3. Music Database & Search System
+✅ Host tracks from all record pools & Patreon edits.
+ ✅ Advanced search: Find songs by title, artist, and remixes.
+ ✅ Filtering options: Record pools, Patreon editors, and genres.
+ ✅ Organize content into four sections:
+Music: Hip-Hop, Dance, Latin, Pop, R&B, World, Other.
+Videos: DJ sets, music videos, and performances.
+Tutorials: DJ techniques, software tips.
+Patreon: Exclusive edits & remixes.
+4. Shazam Integration & AI Song Matching
+✅ Integrate Shazam API (or equivalent) to identify tracks.
+ ✅ System will:
+Search the database for the original track & remixes.
+Curate a list of remixes/edits for the user's next login.
+Display recommended content on the dashboard.
+5. Content Sections & Management
+🎵 Music Section
+✅ Browse & download tracks from selected record pools.
+ ✅ Search & filter by Artist, Genre, BPM, Key, Remix Type.
+ ✅ Preview tracks before downloading.
+🎥 Video Section
+✅ Dedicated space for DJ sets, music videos, and tutorials.
+ ✅ Organized by genre and category.
+🎛 Tutorials Section
+✅ DJ-related tutorials (software, mixing, advanced techniques).
+🎶 Patreon Section
+✅ Follow specific Patreon editors.
+ ✅ Exclusive edits & remixes from Patreon creators.
+6. Updates, Notifications & User Preferences
+✅ Notify users of new uploads from their selected record pools.
+ ✅ Updates similar to djpoolrecords.com.
+ ✅ Custom user settings for notification preferences.
+7. Admin Panel for Content Management
+✅ Admin Uploads: Music, videos, tutorials, and Patreon content.
+ ✅ Manage Record Pools & Editors.
+ ✅ Approve/Deny User Suggestions (Record Pools & Patreon Editors).
+ ✅ Monitor Downloads & User Engagement.
+8. Local Trends & Automated Music Discovery
+✅ API Integration (Spotify Charts, Beatport, Shazam) for trending music.
+ ✅ Users can input a city to see:
+Top 10 tracks in that location (playable previews).
+Genre breakdown (Hip-Hop, Dance, etc.).
+Local hits & trending songs.
+ ✅ Users can save favorite cities for quick access.
+9. User Playlists & Zip Download Functionality
+✅ Create & manage playlists.
+ ✅ Play track previews before adding them.
+ ✅ Download entire playlists as a ZIP file.
+ ✅ Bulk actions: Add multiple tracks, reorder, rename playlists.
+10. Suggestion System & Community Feedback
+✅ Suggestion Form: Users can request new record pools or Patreon editors.
+ ✅ Admin Review Panel: Approve/reject suggestions.
+ ✅ Voting System: Users can upvote/downvote suggestions.
+ ✅ Notifications for suggestion approvals/rejections.
+11. Visual Enhancements & User-Friendly UI
+✅ Record Pools Display: Grid/card layout with logos/images.
+ ✅ Track Previews: 30-second snippets with a play button.
+ ✅ Trends Dashboard: Interactive charts & heatmaps.
+ ✅ Dark Theme with Neon Accents for a modern aesthetic.
+
+Technical Stack & Development Approach
+✅ Platform: Built using Bolt.new (or equivalent framework).
+ ✅ Hosting: Secure file hosting for music & user data.
+ ✅ Storage & Performance: Optimized for fast load times & scalability.
+ ✅ Search Engine Blocking: Implement robots.txt and noindex meta tags.
+
+Next Steps for AI Development
+✅ User Authentication (Supabase Login, Secure Access)
+ ✅ Record Pool Selection UI (Customizable Preferences)
+ ✅ Music Database & Search System (Filtering, Previews, Downloads)
+ ✅ Shazam API Integration (Song Matching & AI Recommendations)
+ ✅ Trending Music Automation (Location-Based Charts & Playlists)
+ ✅ Playlist Creation & Zip Downloads (User Library System)
+ ✅ Admin Panel for Content Management (Upload, Approve, Monitor)
+ ✅ Suggestions & Feedback System (Voting, User Requests)
+
+This is the final version formatted for AI-driven development. Let me know if you'd like any tweaks before generating the site! 🚀
+
