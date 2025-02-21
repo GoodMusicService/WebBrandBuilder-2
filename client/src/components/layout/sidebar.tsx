@@ -3,10 +3,11 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { 
-  Music, 
   PlaySquare, 
   Library, 
   Settings,
+  Video,
+  Gift,
   LogOut 
 } from "lucide-react";
 
@@ -15,14 +16,19 @@ export function Sidebar() {
 
   const routes = [
     {
-      label: "Music",
-      icon: Music,
-      href: "/music",
-    },
-    {
       label: "Record Pools",
       icon: PlaySquare,
       href: "/record-pools",
+    },
+    {
+      label: "Video Pools",
+      icon: Video,
+      href: "/video-pools",
+    },
+    {
+      label: "Patreon",
+      icon: Gift,
+      href: "/patreon",
     },
     {
       label: "Playlists",

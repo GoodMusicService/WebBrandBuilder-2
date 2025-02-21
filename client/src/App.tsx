@@ -6,7 +6,8 @@ import { queryClient } from "./lib/queryClient";
 import Login from "@/pages/login";
 import Dashboard from "@/pages/dashboard";
 import RecordPools from "@/pages/record-pools";
-import Music from "@/pages/music";
+import VideoPools from "@/pages/video-pools";
+import Patreon from "@/pages/patreon";
 import Admin from "@/pages/admin";
 import NotFound from "@/pages/not-found";
 
@@ -16,7 +17,8 @@ function Router() {
       <Route path="/" component={Login} />
       <Route path="/dashboard" component={Dashboard} />
       <Route path="/record-pools" component={RecordPools} />
-      <Route path="/music" component={Music} />
+      <Route path="/video-pools" component={VideoPools} />
+      <Route path="/patreon" component={Patreon} />
       <Route path="/admin" component={Admin} />
       <Route component={NotFound} />
     </Switch>
